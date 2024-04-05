@@ -1,0 +1,19 @@
+{
+  "name": "cvitae-project",
+  "version": "1.0.0",
+  "description": "e-actividad",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luis-sant1/cvitae-project.git"
+  },
+  "author": "Luis Santiago, Jorge Azuaje",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luis-sant1/cvitae-project/issues"
+  },
+  "homepage": "https://github.com/luis-sant1/cvitae-project#readme"
+}
