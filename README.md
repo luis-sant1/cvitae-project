@@ -1,8 +1,20 @@
-# React + Vite
+# Curriculum
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Información general
+***
+En esta pagina se podran observar distintos curriculums de diferentes personas. Se podran agregar mas personas agregando sus datos al codigo. 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalación
+***
+Lo primero que deberemos hacer será clonar el repositorio y luego seguir los siguientes pasos para ejecutar el proyecto:
+
+* Necesitamos abrir el proyecto en nuestro editor de código. 
+* Luego debemos seguir los siguientes pasos para ejecutar el Cliente.
+
+### Como Ejecutar el Cliente
+***
+* Para correr el Cliente lo primero que debemos hacer es abrir una terminal y colocar los siguientes dos códigos, uno por uno, para correr el Cliente:
+*       npm i
+*       npm run dev
+* Y ya estaría corriendo nuestro cliente, y solo debemos ir al link que nos da la terminal.

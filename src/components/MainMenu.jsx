@@ -1,3 +1,4 @@
+// Menu principal del programa
 import { Link } from "react-router-dom"
 import cvs from "../assets/data"
 
