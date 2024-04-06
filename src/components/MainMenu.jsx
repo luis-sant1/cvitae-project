@@ -1,13 +1,24 @@
+import { Link } from "react-router-dom"
+import cvs from "../assets/data"
 
-export default function mainMenu () {
-    return(
+Link
+export default function mainMenu() {
+    return (
         <>
-        <div className="container">
-            <img src="https://static.vecteezy.com/system/resources/thumbnails/006/487/912/small_2x/hacker-avatar-ilustration-free-vector.jpg" alt="" srcset="" style={{width: 200, height: 200}}/>
-            <h2>Name</h2>
-            <img src="https://static.vecteezy.com/system/resources/thumbnails/002/002/403/small/man-with-beard-avatar-character-isolated-icon-free-vector.jpg" alt="" srcset="" style={{width: 200, height: 200}}/>
-            <h2>Name</h2>
-        </div>
+            <div className="container">
+                {
+                    cvs.map(cv => {
+                        return (
+                            <>
+                                <div key={cv.name} className="card">
+                                    <img src="https://static.vecteezy.com/system/resources/thumbnails/006/487/912/small_2x/hacker-avatar-ilustration-free-vector.jpg" alt="" className="card-image" style={{ width: 200, height: 200 }} />
+                                    <Link to={`/CVitae/${cv.name}`} className="card-name"><h2>{cv.name}</h2></Link>
+                                </div>
+                            </>
+                        )
+                    })
+                }
+            </div>
         </>
     )
 }
