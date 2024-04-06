@@ -1,5 +1,5 @@
-import { Link, useParams } from "react-router-dom"
-
+// Menu principal del programa
+import { Link } from "react-router-dom"
 export default function mainMenu(data) {
     const cvs = data.data;
     return (

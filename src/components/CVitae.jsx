@@ -1,3 +1,4 @@
+//Curiculum 
 import { useNavigate, useParams } from "react-router-dom"
 export default function CVitae(data) {
     const { id } = useParams();
